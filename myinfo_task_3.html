@@ -164,6 +164,39 @@
          <footer>
             <p>Copyright 2021 &copy;</p>
         </footer>
+                                        <!-- task 6-->
+        <hr>
+        <br>
+        <form action="test.py" method="post">
+            <div>
+           <label for="name">Username</label><br>
+            <input type="text" id="name" required placeholder="username" name="username"> 
+            </div>
+            <hr>
+            <div>
+           <label for="pass">Password</label><br>
+            <input type="password" id="pass" minlength="8" placeholder="must be at least 8 characters" name="password">
+            </div>
+            <hr>
+            <div>
+           <label for="mobile">Mobile</label><br>
+            <input type="tel" id="mobile" placeholder="+20100(234)123" name="mobile">
+            </div>
+             <hr>
+            <div>
+           <label for="email">Email</label><br>
+            <input type="email" id="email" required placeholder="example@gmail.com" name="email">
+            </div>
+             <hr>
+            <div>
+           <label for="sub">Subject</label><br>
+            <input type="text" id="sub" placeholder="subject" name="subject">
+            </div>
+            <input type="hidden" name="id " value="121412">   <!-- hidden to not show it to user -->
+             <hr>
+            <hr>
+            <input type="submit" value="Send Data"> |
+            <input type="reset" value="Empty Form">
 
 
 
