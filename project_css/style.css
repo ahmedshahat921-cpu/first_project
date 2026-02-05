@@ -23,38 +23,25 @@ hr {
     border-width: 10px;
 }
 
-.element-1 {
+.element div {
     background-color: rgb(149 149 149 /30%);
     width: 400px;
     padding: 15px;
     margin: 10px auto;
     border-width: 0px 0px 0px 6px;
-    border-color: rgb(160, 11, 41);
     border-style: solid;
     font-family: Arial, sans-serif;
+}
+
+.element-1 {
+    border-color: rgb(202, 32, 123);
 }
 
 .element-2 {
-    background-color: rgb(149 149 149 /30%);
-    width: 400px;
-    padding: 15px;
-    margin: 10px auto;
     visibility: hidden;
-    border-width: 0px 0px 0px 6px;
     border-color: rgb(38, 146, 20);
-    border-style: solid;
-    font-family: Arial, sans-serif;
-
 }
 
 .element-3 {
-    background-color: rgba(149 149 149 /30%);
-    width: 400px;
-    padding: 15px;
-    margin: 10px auto;
-    border-width: 0px 0px 0px 6px;
     border-color: rgb(78, 43, 204);
-    border-style: solid;
-    font-family: Arial, sans-serif;
-
 }
