@@ -45,3 +45,34 @@ hr {
 .element-3 {
     border-color: rgb(78, 43, 204);
 }
+
+.parent .child .title {
+    color: red;
+}
+
+.parent .title {
+    /* .parent > .title {     معناها التيتل المباشر من البيرنت  */
+    color: blue;
+}
+
+.parent p,
+.title {
+    /* .title:not(span) {*/
+    color: green;
+}
+
+.one,
+.two,
+.three {
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.one {
+    text-transform: uppercase;
+}
+
+.two {
+    text-transform: capitalize;
+}
