@@ -76,3 +76,26 @@ hr {
 .two {
     text-transform: capitalize;
 }
+
+.one1,
+.two1,
+.three1 {
+    line-height: 1.8;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.one1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.two1 {
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
+}
+
+.three1 {
+    font-family: "Jomhuria", serif;
+    font-weight: 400;
+}
