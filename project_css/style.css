@@ -192,3 +192,37 @@ hr {
 .one-fourth {
     width: calc((100% - (15px * 4)) / 4);
 }
+
+
+
+
+/* task from 27 to 29 */
+
+div.box1 {
+ 
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px; 
+  margin:20px auto;
+  text-align: center;
+  transform: uppercase;
+}
+div.box1 .normal {
+    background-color:silver;
+    opacity: 1; 
+     margin: 20px auto;
+     padding: 20px;
+}
+div.box1 .one {
+    background-color:silver;
+     margin: 20px auto;
+    opacity: 0.5;
+    padding: 20px;
+}
+div.box1 .two {
+    background-color:silver;
+     margin: 20px auto;
+    opacity: 0.2;
+    padding: 20px;
+}
